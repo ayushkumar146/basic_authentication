@@ -1,0 +1,72 @@
+*{
+    height: 0;
+    padding: 0;
+}
+.loginpage{
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    width: 50vw;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: brown;
+}
+.laemail{
+    width: 5vw;
+    height: 10vh;
+    font-size: 5vh;
+    margin-right: 2vh;
+    font-style: oblique;
+    font-weight: bold;
+    /* text-align: start; */
+}
+.lemail{
+    margin-top: 5vh;
+    height: 10vh;
+    width: 50vw;
+display: flex;
+/* flex-direction: column; */
+justify-content: space-around;
+align-items: center;
+margin-left: 5vw;
+
+}
+.lemailinput{
+height: 10vh;
+width: 45vw;
+text-align: center;
+}
+.lemailinput input[type=text]{
+    height: 3vh;
+    width: 23vw;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 4vh;
+    color: rgb(104, 8, 98);
+    background-color: white;
+}
+.lpasswordinput input[type=password]{
+    height: 3vh;
+    width: 23vw;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 4vh;
+    color: rgb(104, 8, 98);
+    background-color: white;
+}
+.lemailinput input[type=text]:hover{
+    background-color: black;
+}
+.lpasswordinput input[type=password]:hover{
+    background-color: black;
+}
+.lsubmit button{
+    height: 5vh;
+    width: 30vw;
+    font-size: 4vh;
+    font-weight: bold;
+    background-color: rebeccapurple;
+    color: yellow;
+}

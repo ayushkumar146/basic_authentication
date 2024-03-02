@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.error{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+}
+.errorname{
+    font-size: 17vh;
+}
+.errbtn button{
+    height: 7vh;
+    width: 10vw;
+    background-color: blueviolet;
+    color: yellow;
+}

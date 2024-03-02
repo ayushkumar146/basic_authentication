@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ssignup{
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: brown;
+}
+.sname{
+margin: 2.5vh 0 2.5vh 0;
+    display: flex;
+    height: 8vh;
+    width: 50vw;
+    display: flex;
+    margin-left: 5vw;
+}
+.saname{
+    width: 5vw;
+    height: 8vh;
+    font-size: 5vh;
+    margin-right: 2vh;
+    font-style: oblique;
+    font-weight: bold;
+}
+.sinput{
+    height: 8vh;
+    width: 45vw;
+    text-align: center;
+    }
+.sinput input[type=text]{
+    height: 3vh;
+    width: 23vw;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 4vh;
+    color: rgb(104, 8, 98);
+    background-color: white;
+}
+.sinput input[type=password]{
+    height: 3vh;
+    width: 23vw;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 4vh;
+    color: rgb(104, 8, 98);
+    background-color: white;
+}
+.ssubmit button{
+    height: 5vh;
+    width: 30vw;
+    font-size: 4vh;
+    font-weight: bold;
+    background-color: rebeccapurple;
+    color: yellow;
+    margin-bottom: 3vh;
+}

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    height: 50px; /* Adjust height as needed */
+    width: 100%;
+    font-size: 32px; /* Adjust font size as needed */
+    font-weight: bold;
+    background: linear-gradient(to right, red, blue);
+    transition: background-color 2s ease; /* Transition for background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Text color */
+}
+
+.navbar-content {
+    padding: 0 20px; /* Adjust padding as needed */
+}
+
+
+.mid{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.choose{
+    height: 5vh;
+    width: 50vw;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:black;
+}
+.login{
+    /* display: flex; */
+    height: 5vh;
+    width: 25vw;
+    font-size: 4vh;
+    font-weight: bolder;
+    color: red;
+    text-align: center;
+    background-color:black;
+
+    /* align-items: center; */
+}
+.login button{
+    height: 5vh;
+    width: 25vw;
+    font-size: 3vh;
+    font-weight: bolder;
+    color: red;
+    text-align: center;
+    background-color:black;
+
+}
+.login button:hover{
+color: black;
+background-color: red
+}
+.signup{
+    height: 5vh;
+    width: 25vw;
+    font-size: 4vh;
+    font-weight: bolder;
+    color: red;
+    text-align: center;
+}
+.signup button{
+    height: 5vh;
+    width: 25vw;
+    font-size: 3vh;
+    font-weight: bolder;
+    color: red;
+    text-align: center;
+    background-color:black;
+    /* border-color: black; */
+
+}
+.signup button:hover{
+    color: black;
+background-color: red
+}
+.content{
+    display: flex;
+    height: 50vh;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    height: 20vh;
+    width: 100vw;
+}
